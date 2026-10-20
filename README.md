@@ -75,8 +75,8 @@ Search the codebase for `PLACEHOLDER` to find these.
 - [ ] **Booksy widget** — paste his website-widget link into `BOOKSY_WIDGET_URL`
       (`lib/content.ts`) to make booking happen fully in-page.
 - [ ] **Hours** — confirm real hours, edit `hours` in `lib/content.ts`.
-- [ ] **Reviews** — testimonials in `lib/content.ts` are original blurbs based on
-      his real review themes; swap in client-approved quotes.
+- [ ] **Reviews** — `testimonials` in `lib/content.ts` is empty, so the quote grid
+      is hidden. Add real, client-approved quotes to show it.
 - [ ] **Domain** — set the real URL in `metadataBase` (`app/layout.tsx`).
 - [ ] **OG image** — add `/public/og.jpg` (1200×630) and uncomment `images` in metadata.
 

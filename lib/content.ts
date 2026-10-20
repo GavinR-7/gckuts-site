@@ -49,38 +49,12 @@ export const services: Service[] = [
 ];
 
 // ---- Testimonials ---------------------------------------------------------
-// NOTE: These are ORIGINAL blurbs written from the *themes* of Giancarlo's real
-// 5.0-star Booksy reviews (patience with kids, clean fades, sharp beard/line-up
-// work, consistency). They are not copied verbatim. Before launch, swap in real,
-// client-approved quotes.
+// Real, client-approved quotes only (with his permission to use the name). The
+// quote grid in components/Reviews.tsx stays hidden while this list is empty;
+// the Booksy rating and "Read all reviews" link still show.
 export type Testimonial = { quote: string; name: string; service: string };
 
-export const testimonials: Testimonial[] = [
-  {
-    quote:
-      "Took his time and nailed exactly what my son wanted. First barber my kid actually looks forward to seeing.",
-    name: "Jennifer",
-    service: "Kid's Haircut",
-  },
-  {
-    quote:
-      "Skin fade and beard came out perfect — the line-up was razor sharp. Best in the area, hands down.",
-    name: "Brandon",
-    service: "Skin Fade & Beard Trim",
-  },
-  {
-    quote:
-      "Consistent every single visit. You can tell he actually cares about getting the details right.",
-    name: "James",
-    service: "Haircut",
-  },
-  {
-    quote:
-      "Patient, professional, and the cut was clean. Already booked my next one.",
-    name: "Lisa",
-    service: "Kid's Haircut",
-  },
-];
+export const testimonials: Testimonial[] = [];
 
 // ---- Hours ----------------------------------------------------------------
 // PLACEHOLDER: confirm real hours with Giancarlo before launch.
